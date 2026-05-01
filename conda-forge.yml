@@ -6,8 +6,6 @@ github:
 conda_build:
   error_overlinking: true
 conda_forge_output_validation: true
-build_platform:
-  osx_64: osx_arm64
 provider:
   osx_arm64: default
 test: native_and_emulated
